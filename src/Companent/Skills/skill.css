@@ -1,0 +1,16 @@
+.track {
+
+    stroke: lightgray;
+    fill: none;
+    stroke-width: 10;
+}
+.progress {
+
+    stroke: rgb(255, 4, 4);
+    fill: none;
+    stroke-width: 10;
+    stroke-dasharray: 630;
+    stroke-dashoffset: calc(630 - 20 / 100 * 630);
+    stroke-linecap: round;
+
+}
